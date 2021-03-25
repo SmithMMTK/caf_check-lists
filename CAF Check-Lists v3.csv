@@ -1,0 +1,61 @@
+ID,Work Item Type,Title 1,Title 2,Title 3,Title 4, Assigned To,Description,Tags
+,Epic,CAF Project Check-Lists,,,,,,
+,Feature,,Application / Features,,,,,Application;plan
+,User Story,,,Business requirements,,,,Application;plan
+,Task,,,,Clear business requirements and Technical KPI,,,
+,Task,,,,Estimated / Targeted Cost per month with BOM),,,
+,Task,,,,Get green light and budget approved,,,
+,User Story,,,Application design,,,,Application;plan
+,Task,,,,Understand Application component and dependencies,,,Application;plan
+,Task,,,,"Align selected components with Enterprise architecture, Security, and Operation teams",,,Application;plan
+,Task,,,,Get target environment with solution cost / BOM available,,,Application;plan
+,Task,,,,Complete the technology Prototype,,,Application;plan
+,User Story,,,Performance target,,,,Application;plan
+,Task,,,,Defined performance (transaction per second) target,,,Application;plan
+,Task,,,,Defined Service Availability (SLA) target,,,Application;plan
+,Task,,,,"Verify and get approval from Platform team if all services that planned to use can meet the performance target e.g. IOPS, #of active connections, and other services' specific limitaiton",,,Application;plan
+,User Story,,,Load test methodology,,,,Application;plan
+,Task,,,,Defined load-pattern and able to identify all possible bottleneck with rate limit handling,,,Application;plan
+,Task,,,,"Load test environment, script, and process is ready to perform",,,Application;plan
+,User Story,,,Artifact creation manual,,,,Application;plan
+,Task,,,,Artifact get approve/align with designed Repos and security,,,Application;plan
+,Task,,,,Integrate package deployment into CI/CD pipeline,,,Application;plan
+,Feature,,Infrastructure / Security Requirements,,,,,Infrastructure;plan
+,User Story,,,Architecture,,,,Infrastructure;plan
+,Task,,,,"Solution Architecture get consensus from EA, Operation, Security, and Infra team",,,Application;plan
+,Task,,,,Complete the technology Prototype in sandbox,,,Application;plan
+,Task,,,,Define scalability approach (scale-up / scale-out),,,Application;plan
+,Task,,,,"Verify and get approval from Platform team if all services that planned to use can meet the performance target e.g. IOPS, #of active connections, and other services' specific limitaiton",,,Application;plan
+,Task,,,,"Complete cost optimization review (right-sizing, reserve-instance, hybrid-benefits)",,,Application;plan
+,Task,,,,Define and agree on CI/CD pipeline; Quality-gate and approval flow ,,,Application;plan
+,User Story,,,Network configuration,,,,Infrastructure;plan
+,Task,,,,Complete the technology Prototype in sandbox,,,Infrastructure;plan
+,Task,,,,Established network connection between on-premise and cloud,,,Infrastructure;plan
+,Task,,,,Get agree on internal-facing and external-facing protection,,,Infrastructure;plan
+,User Story,,,Security posture,,,,Infrastructure;plan
+,Task,,,,"Define security baseline and infrastructure protection (data, network, identity and access control)",,,Infrastructure;plan
+,Task,,,,Implement application security baseline on target landing zones,,,Infrastructure;plan
+,Task,,,,Get approval from Security team,,,Infrastructure;plan
+,User Story,,,Subscription Billing and Governance,,,,Infrastructure;plan
+,Task,,,,Complete management group and subscription design,,,Infrastructure;plan
+,Task,,,,Determine what Azure policies are needed,,,Infrastructure;plan
+,Task,,,,Able to see/trace usage very month transparently ,,,Infrastructure;plan
+,User Story,,,Automation and IaaC,,,,Infrastructure;plan
+,Task,,,,Able to provision environment and solutions by IaaC based-on agree pipeline,,,Infrastructure;plan
+,Task,,,,Integrated IaaC with CI/CD pipeline with blue/green deployment,,,Infrastructure;plan
+,Task,,,,"Prove that the provided environment support the scalability, self-healing",,,Infrastructure;plan
+,Feature,,Operations,,,,,Operations;plan
+,User Story,,,Compliance control,,,,Operations;plan
+,Task,,,,"Understand process and protocol how to prove of compliance (sample supporting tool : Azure Security Center, Azure Compliance Center)",,,Operations;plan
+,User Story,,,Monitoring Workbook,,,,Operations;plan
+,Task,,,,Completed Azure Monitor workbook for platform level monitoring and alert,,,Operations;plan
+,Task,,,,"Defined operation tasks such as patching, platform planned maintenance and add into Azure Monitor workbook",,,Operations;plan
+,User Story,,,Log and Alert,,,,Operations;plan
+,Task,,,,Log and required diagnostic log has enabled,,,Operations;plan
+,Task,,,,Ability to trace the logs for auditing requirements,,,Operations;plan
+,Task,,,,"Define, create, and test self-healing runbook ",,,Operations;plan
+,User Story,,,Back and Restoration,,,,Operations;plan
+,Task,,,,Able to backup and restore application to meet RPO / RTO requirements,,,Operations;plan
+,User Story,,,DR manual and process,,,,Operations;plan
+,Task,,,,Process and procedure to rebuild or restore the whole system has been written,,,Operations;plan
+,Task,,,,Able to perform DR drill,,,Operations;plan

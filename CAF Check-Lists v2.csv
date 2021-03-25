@@ -1,0 +1,48 @@
+ID,Work Item Type,Title 1,Title 2,Title 3,Title 4, Assigned To,Description,Tags
+,Epic,CAF Project Check-Lists,,,,,,
+,Feature,,Application / Features,,,,,Application;plan
+,User Story,,,Business requirements,,,,Application;plan
+,Task,,,,Clear business requirements and Technical KPI,,,
+,Task,,,,Estimated / Targeted Cost per month with BOM),,,
+,Task,,,,Get green light and budget approved,,,
+,User Story,,,Application design,,,,Application;plan
+,Task,,,,Understand Application component and dependencies,,,Application;plan
+,Task,,,,"Align selected components with Enterprise architecture, Security, and Operation teams",,,Application;plan
+,Task,,,,Get target environment with solution cost / BOM available,,,Application;plan
+,User Story,,,Performance target,,,,Application;plan
+,Task,,,,Defined performance (transaction per second) target,,,Application;plan
+,Task,,,,Defined Service Availability (SLA) target,,,Application;plan
+,User Story,,,Load test methodology,,,,Application;plan
+,Task,,,,Defined load-pattern and identify all possible bottleneck with rate limit handling,,,Application;plan
+,Task,,,,Passed load-test on target performance,,,Application;plan
+,User Story,,,Artifact creation manual,,,,Application;plan
+,Task,,,,Automate package deployment application,,,Application;plan
+,Task,,,,Integrate package deployment into CI/CD pipeline,,,Application;plan
+,Feature,,Infrastructure / Security Requirements,,,,,Infrastructure;plan
+,User Story,,,Architecture,,,,Infrastructure;plan
+,Task,,,,Get agree on landing zone architecture on prod and non-prod environment,,,Application;plan
+,Task,,,,Define scalability approach (scale-up / scale-out),,,Application;plan
+,Task,,,,"Complete cost optimization review (right-sizing, reserve-instance, hybrid-benefits)",,,Application;plan
+,User Story,,,Network configuration,,,,Infrastructure;plan
+,Task,,,,Design network topology and connectivity,,,Infrastructure;plan
+,Task,,,,Established network connection between on-premise and cloud,,,Infrastructure;plan
+,Task,,,,Get agree on internal-facing and external-facing protection,,,Infrastructure;plan
+,User Story,,,Security posture,,,,Infrastructure;plan
+,Task,,,,"Define security baseline and infrastructure protection (data, network, identity and access control)",,,Infrastructure;plan
+,Task,,,,Implement application security baseline on target landing zones,,,Infrastructure;plan
+,Task,,,,Get agree with security operations team,,,Infrastructure;plan
+,User Story,,,Subscription Billing and Governance,,,,Infrastructure;plan
+,Task,,,,Complete management group and subscription design,,,Infrastructure;plan
+,Task,,,,Determine what Azure policies are needed,,,Infrastructure;plan
+,User Story,,,Automation and IaaC,,,,Infrastructure;plan
+,Task,,,,"Provisioning environment : dev, staging, uat, and production by IaaC",,,Infrastructure;plan
+,Task,,,,Integrated IaaC with CI/CD pipeline with blue/green deployment,,,Infrastructure;plan
+,Task,,,,Automate scale-in / scale-out application,,,Infrastructure;plan
+,Feature,,Operations,,,,,Operations;plan
+,User Story,,,Compliance control,,,,Operations;plan
+,User Story,,,Monitoring Workbook,,,,Operations;plan
+,Task,,,,Completed designed platform level monitoring and alerting,,,Operations;plan
+,Task,,,,"Defined operation tasks such as patching, platform planned maintenance",,,Operations;plan
+,User Story,,,Log and Alert,,,,Operations;plan
+,User Story,,,Back and Restoration,,,,Operations;plan
+,User Story,,,DR manual and process,,,,Operations;plan
